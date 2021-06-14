@@ -1,0 +1,20 @@
+regisztráció: Az alkalmazásba be lehet regisztrálni, név, emailcím és jelszó megadásával
+bejelentkezés: Az alkalmazásba be lehet jelentkezni egy meglévő felhasználói fiókkal
+felhasználói beállítások - User profilkép: Az alkalmazásban az előzőleg bejelentkezett user számára meg lehet adni a használni kívánt profil kép linkjét (url hivatkozással)
+felhasználói beállítások - User név: Az alkalmazásban az előzőleg bejelentkezett user (regisztrált) nevét meg lehet változtatni
+felhasználói beállítások - Bio megadás: Az alkalmazásban az előzőleg bejelentkezett user egy rövid bemutatkozást (bio) képes rendelni a profiljához
+felhasználói beállítások - email cím: Az alkalmazásban az előzőleg bejelentkezett user (regisztrált) email címét meg lehet változtatni
+felhasználói beállítások - jelszó: az alkalmazásban Az előzőleg bejelentkezett user (regisztrált) jelszavát meg lehet változtatni
+felhasználói beállítások - Profil beállítások elmentése:  Az alkalmazásban az előzőleg bejelentkezett user a profiljában végzett módosításokat képes alkalmazni/elmenteni
+kezdőlap: A "Home" gombot (funkciót) használva a kezdő oldalra irányítja át a felhasználót az applikáció
+új topic létrehozása - Form: A "New Article" gombot (funkciót) használva új topic-ok létrehozáse lehetséges, az így megjelenő űrlap megfelelő kitöltésével
+új topic létrehozása - Topic publikálása: A "Publish Article" gombot (funkciót) használva új topic-okat lehet megosztani az applikáció felületén
+szűrési funkció - topic-ok szűrése tag-ek segítségével: Az alkalmazásban kilistázott topic-ok megjelenítésének szűrésére van lehetőség előre meghatározott ("Popular Tags") tag-ek segítségével
+kedvenc funkció: Az alkalmazásban tetszőlegesen meg lehet jelölni kedvenc (Favorite) topic-okat, egy az adott topic mellett található gomb segítségével
+felhasználói oldal - megosztott topic-ok kilistázása: Az alkalmazásban a felhasználó megnézheti az általa megosztott topic-ok listáját
+felhasználói oldal - kedvencként megjelölt topic-ok kilistázása: Az alkalmazásban a felhasználó megnézheti az általa kedvencként megjelölt topic-ok listáját
+comment írása: Az alkalmazásban bármely tetszőlegesen választott topic-hoz comment-et lehet írni, amely globálisan megosztásra kerül
+létrehozott saját topic szerkesztése: Az alkalmazásban, egy a felhasználó által létrehozott bejegyzést utólag lehet szerkeszteni
+létrehozott saját topic törlése: Az alkalmazásban, egy a felhasználó által létrehozott bejegyzés törlése lehetséges
+cookie teszt: Az alkalmazásban lehetőség van elfogadni/elutasítani a cookie kérelmet 
+kijelentkezés: Az alkalmazásból ki lehet jelentkezni a "Log out" funkciót (gombot) használva
