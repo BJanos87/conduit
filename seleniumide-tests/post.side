@@ -176,6 +176,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "d674581f-0bfb-455d-b1a7-f6ed8a3a3636",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=Log out",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "4cd06ffc-8388-4e02-afaf-468778300bd8",
       "comment": "",
       "command": "close",
@@ -557,6 +564,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "5d191506-5239-48bc-aebd-9abe4536e1d1",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=Log out",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "4b52deba-c3cc-43f1-8ae1-676e6b9118dc",
       "comment": "",
       "command": "close",
@@ -751,6 +765,132 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "89820eaf-c128-44f1-989f-838316230351",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "css=h1",
+      "targets": [],
+      "value": "Teszt Post"
+    }, {
+      "id": "f906356d-f6e8-4f59-be7d-4f60fd16d752",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=New Article",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ec56717-3c8b-4a7d-be3f-5965622bbb78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New Article",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22fb4a73-a483-41b4-a980-03f5181f1c52",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input[placeholder=\"Article Title\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f1780eb-f1e4-4c3f-a665-f5d920939673",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[placeholder=\"Article Title\"]",
+      "targets": [],
+      "value": "Teszt Post"
+    }, {
+      "id": "b69d6454-5647-45aa-8a08-e2a40dd31d43",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input[placeholder=\"What\\'s this article about?\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93e9ca9a-834e-437d-a67d-f20ed9315456",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[placeholder=\"What\\'s this article about?\"]",
+      "targets": [],
+      "value": "Teszt"
+    }, {
+      "id": "de1bf685-7742-4281-b6de-56d9bcb545ab",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=textarea[placeholder=\"Write your article \\(in markdown\\)\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96393ffb-dba3-43db-bbf1-0150d6de5920",
+      "comment": "",
+      "command": "type",
+      "target": "css=textarea[placeholder=\"Write your article \\(in markdown\\)\"]",
+      "targets": [],
+      "value": "Ez egy rövid cikk, az applikáció tesztelése céljából..."
+    }, {
+      "id": "e79882dd-1025-4876-92c3-c608462dbc6e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input[placeholder=\"Enter tags\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f905a97a-d419-4b12-bcf8-4a005657661d",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[placeholder=\"Enter tags\"]",
+      "targets": [],
+      "value": "unique"
+    }, {
+      "id": "e06b5518-68a2-49c1-89b0-b05b29114b72",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74644eed-f256-42e9-a21c-cf1e94250707",
+      "comment": "",
+      "command": "click",
+      "target": "css=button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "246ad546-3c1c-430f-be8d-479630db7365",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54887115-592e-4c59-9041-fb7c7274df51",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75d8f383-1cf8-4909-886d-8eb6a5817f80",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=testuser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29ff90b3-76ed-46c6-b59b-8c490b33dc32",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=testuser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "156a563c-1574-453d-8f2b-e533bf55e0ae",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "7dd0ee49-a708-45f0-abd8-a87193492bb2",
       "comment": "",
       "command": "assertText",
@@ -922,6 +1062,13 @@
       "id": "dc2f8f03-fd54-481f-86a5-a019983732b0",
       "comment": "",
       "command": "click",
+      "target": "linkText=Log out",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26172a9a-e500-46e7-94e0-797875f0a861",
+      "comment": "",
+      "command": "assertElementNotPresent",
       "target": "linkText=Log out",
       "targets": [],
       "value": ""
@@ -1122,10 +1269,136 @@
     }, {
       "id": "adeedbac-aa94-49e1-a51d-e0e959132b6b",
       "comment": "",
+      "command": "assertNotText",
+      "target": "css=h1",
+      "targets": [],
+      "value": "Teszt Post"
+    }, {
+      "id": "8e0277a5-12f4-4ba7-b05f-6346c79de6c9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=New Article",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62b7980d-ef87-49e3-b09b-e70642d1243c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New Article",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6dd9acb-016d-4df9-ac85-82763a1ed206",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input[placeholder=\"Article Title\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea3596ad-8673-4979-96cc-79b7a7cff519",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[placeholder=\"Article Title\"]",
+      "targets": [],
+      "value": "Teszt Post"
+    }, {
+      "id": "ee7706a6-1736-40d4-ac55-e01176dad567",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input[placeholder=\"What\\'s this article about?\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d66acd8-98dd-4c91-bf80-8a445140cb13",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[placeholder=\"What\\'s this article about?\"]",
+      "targets": [],
+      "value": "Teszt"
+    }, {
+      "id": "2adf38a7-8710-4a3a-b19d-4da4fc82d743",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=textarea[placeholder=\"Write your article \\(in markdown\\)\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef9bf4ea-2754-4f6b-a4ae-89cd2d304b1d",
+      "comment": "",
+      "command": "type",
+      "target": "css=textarea[placeholder=\"Write your article \\(in markdown\\)\"]",
+      "targets": [],
+      "value": "Ez egy rövid cikk, az applikáció tesztelése céljából..."
+    }, {
+      "id": "1337a8fe-1aba-421d-ac0d-c45215f7f2a3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input[placeholder=\"Enter tags\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db876614-c7d9-4da3-bdbf-d43267a6aa6b",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[placeholder=\"Enter tags\"]",
+      "targets": [],
+      "value": "unique"
+    }, {
+      "id": "3bc54257-70d9-4ec9-aa0b-0406ccc18b19",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f66d8db8-73b6-4fe6-a865-9968681a6eb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c783e46b-0030-4881-9388-dd0bf6c08b66",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77932531-d173-4909-b206-8e6507fd7cc6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99c02a1a-6be6-46d9-8a6b-f3e7a9e929b5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=testuser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c07dd8d0-4a2c-4661-b59a-f99c001c73e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=testuser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38de03fd-a6f5-4368-84f1-d01fd65878a6",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eaba810d-74b6-4cda-83f5-1711f4aae726",
+      "comment": "",
       "command": "assertText",
       "target": "css=h1",
       "targets": [],
-      "value": "Teszt Post módosítva"
+      "value": "Teszt Post"
     }, {
       "id": "e2333256-84e3-48b7-b7b4-08f355c74032",
       "comment": "",
@@ -1188,7 +1461,7 @@
       "command": "assertNotText",
       "target": "css=h1",
       "targets": [],
-      "value": "Teszt Post módosítva"
+      "value": "Teszt Post"
     }, {
       "id": "3e1e844b-a618-4cfd-839f-90922316530e",
       "comment": "",
@@ -1214,6 +1487,13 @@
       "id": "a3f83e6a-3a0f-407a-87d8-a7288921b940",
       "comment": "",
       "command": "click",
+      "target": "linkText=Log out",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ed817fd-e23e-45cb-8844-f7a96be166c4",
+      "comment": "",
+      "command": "assertElementNotPresent",
       "target": "linkText=Log out",
       "targets": [],
       "value": ""
