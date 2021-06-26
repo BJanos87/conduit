@@ -1,11 +1,11 @@
 {
   "id": "07227758-f8ca-46eb-9be9-d274ae94434f",
   "version": "2.0",
-  "name": "Registration Test Cases",
+  "name": "Login Test Cases",
   "url": "http://localhost:1667/",
   "tests": [{
     "id": "a2b6a98d-fee2-4aa4-b491-a23a03d97012",
-    "name": "Login_Registered_User",
+    "name": "01_Login_Registered_User",
     "commands": [{
       "id": "2de7bd18-8c5c-4ea6-bf10-1d64e62eef97",
       "comment": "",
@@ -189,7 +189,7 @@
       "id": "a1a3aaea-0215-4710-91a4-1470d819715b",
       "comment": "",
       "command": "click",
-      "target": "css=.btn",
+      "target": "css=button[class=\"btn btn-lg btn-primary pull-xs-right\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//div[@id='app']/div/div/div/div/form/button", "xpath:idRelative"],
@@ -201,7 +201,7 @@
       "id": "0c1f0096-92eb-4ac2-95fd-1c7158a99944",
       "comment": "",
       "command": "click",
-      "target": "css=.swal-button",
+      "target": "css=button[class=\"swal-button swal-button--confirm\"]",
       "targets": [
         ["css=.swal-button", "css:finder"],
         ["xpath=//div[2]/div/div[4]/div/button", "xpath:position"],
@@ -211,10 +211,10 @@
     }, {
       "id": "b3e05ffb-938d-440b-b753-a4b59d7fff98",
       "comment": "",
-      "command": "assertElementPresent",
+      "command": "waitForElementPresent",
       "target": "linkText=New Article",
       "targets": [],
-      "value": ""
+      "value": "3000"
     }, {
       "id": "d320c11e-1e6f-4d98-bfd4-069437a409ae",
       "comment": "",
@@ -244,10 +244,17 @@
         ["xpath=//a[contains(.,' New Article')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "02da1419-7fd9-41bf-a306-1000eb775602",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }, {
     "id": "f5efd782-08a3-47af-8bd5-0dd0fecd9815",
-    "name": "Login_Not_Existing_User",
+    "name": "02_Login_Not_Existing_User",
     "commands": [{
       "id": "a66eddbb-47e6-4a0c-8f02-a63ab225c338",
       "comment": "",
@@ -380,10 +387,22 @@
       ],
       "value": "Abcd1234"
     }, {
+      "id": "45372c5c-24f5-4747-9b70-d68bba520afa",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//input[@type='password']",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "3c41f6f8-7c4d-4972-9001-3317463b68c9",
       "comment": "",
       "command": "click",
-      "target": "css=.btn",
+      "target": "css=button[class=\"btn btn-lg btn-primary pull-xs-right\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//div[@id='app']/div/div/div/div/form/button", "xpath:idRelative"],
@@ -395,7 +414,7 @@
       "id": "45f9e52b-47f4-440e-8f08-3d787b495c2c",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=.swal-text",
+      "target": "css=div[class=\"swal-icon--error__x-mark\"]",
       "targets": [
         ["css=.swal-text", "css:finder"],
         ["xpath=//div/div[3]", "xpath:position"]
@@ -405,12 +424,19 @@
       "id": "2598a3da-7576-44e1-a581-8b7d447e1ab4",
       "comment": "",
       "command": "click",
-      "target": "css=.swal-button",
+      "target": "css=button[class=\"swal-button swal-button--confirm\"]",
       "targets": [
         ["css=.swal-button", "css:finder"],
         ["xpath=//div[4]/div/button", "xpath:position"],
         ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "1a8174a1-ecf4-491d-aa0b-768eb42d93d9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Home",
+      "targets": [],
       "value": ""
     }, {
       "id": "0367b9ca-585b-4453-b0d2-98f79a55a2db",
@@ -442,10 +468,17 @@
         ["xpath=//a[contains(.,' New Article')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "bc2998eb-880c-4dc0-9938-4661d6a11d71",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }, {
     "id": "d9f982a0-58c1-4347-8c78-95af093f37fa",
-    "name": "Login_Existing_User",
+    "name": "03_Login_Existing_User",
     "commands": [{
       "id": "f76f8020-1bb9-4046-9f80-88bc37bd1429",
       "comment": "",
@@ -578,10 +611,22 @@
       ],
       "value": "Abcd1234"
     }, {
-      "id": "b69a468c-d919-4666-aa82-813f8d8fb5cf",
+      "id": "b71eea74-058a-40b1-8a1f-b92df0d43747",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//input[@type='password']",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b1cbce-811f-4d17-a38f-8cbdc79d8f27",
       "comment": "",
       "command": "click",
-      "target": "css=.btn",
+      "target": "css=button[class=\"btn btn-lg btn-primary pull-xs-right\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//div[@id='app']/div/div/div/div/form/button", "xpath:idRelative"],
@@ -592,10 +637,10 @@
     }, {
       "id": "0c7817c6-529a-493d-9d26-2095af27af82",
       "comment": "",
-      "command": "assertElementPresent",
+      "command": "waitForElementPresent",
       "target": "linkText=New Article",
       "targets": [],
-      "value": ""
+      "value": "3000"
     }, {
       "id": "3491b5db-d08d-4612-9f74-e47f9dc6f019",
       "comment": "",
@@ -624,6 +669,13 @@
         ["xpath=//li[2]/a", "xpath:position"],
         ["xpath=//a[contains(.,' New Article')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "4273bfd1-eb85-426a-a4cf-ae7e0d1290cc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],
