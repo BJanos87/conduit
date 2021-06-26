@@ -352,7 +352,7 @@
       "id": "7511966c-eb0d-43e3-9c25-0ee9314c4a60",
       "comment": "",
       "command": "click",
-      "target": "linkText=testuer_1",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
