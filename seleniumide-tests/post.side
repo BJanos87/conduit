@@ -197,23 +197,23 @@
       "id": "f9e1ec04-313e-4c72-93c9-61f60e603a5a",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": "css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "7511966c-eb0d-43e3-9c25-0ee9314c4a60",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": "css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "e23ffa29-109c-43d8-9ae8-7fa934ff6cbb",
       "comment": "",
-      "command": "assertElementNotPresent",
-      "target": "xpath=//a[@href='#/articles/teszt-post']",
+      "command": "assertNotText",
+      "target": "css=h1",
       "targets": [],
-      "value": ""
+      "value": "Teszt Post"
     }, {
       "id": "4495df0b-d63b-44ad-b5fc-08e8c2a608e8",
       "comment": "",
@@ -302,28 +302,28 @@
       "id": "6fb64b16-12a8-4f5f-b1f8-42bbbd182dc7",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/']",
+      "target": "linkText=Home",
       "targets": [],
       "value": ""
     }, {
       "id": "d1d41c9b-0fc0-4692-ad7f-14a68f81bfa7",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/']",
+      "target": "linkText=Home",
       "targets": [],
       "value": ""
     }, {
       "id": "3bb9e332-3320-4e3b-96bd-3c1061b6f523",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": "css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "34c73bb5-4be9-474f-af50-9c89b801865b",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": "css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
@@ -362,17 +362,17 @@
       "targets": [],
       "value": "Ez egy rövid cikk, az applikáció tesztelése céljából..."
     }, {
-      "id": "bab10f36-0965-4695-9df6-7e78d95ee7bb",
+      "id": "20f60ab4-1251-4ccf-8626-640f6db8da2b",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/']",
+      "target": "linkText=Home",
       "targets": [],
       "value": ""
     }, {
-      "id": "c2621be1-7c20-4150-a545-baf780f256af",
+      "id": "9815b69c-7810-47b3-ac44-267b3098d9e7",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/']",
+      "target": "linkText=Home",
       "targets": [],
       "value": ""
     }, {
@@ -394,17 +394,24 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "58975f7a-c5ef-4292-8e35-17ace8a5615a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "32fd2bc3-55e1-45f2-9f2a-bbb4aa32362e",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": "css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "362adb7b-9c6e-4e59-8252-446d12aad9ed",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": "css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
@@ -499,17 +506,31 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "a0b8edde-8250-420f-bc0b-7aaa8981ac6a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58357aa0-b807-4e44-b02f-f9a0ab73167e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "7c899032-2f2e-44fa-8117-d86fe83ea811",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": "css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "50b7da13-4fa9-4417-9ed4-751bf754b3d2",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": "css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
@@ -551,14 +572,14 @@
       "id": "aa4f1df6-b836-4b17-9043-693c7e45e011",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/']",
+      "target": "linkText=Home",
       "targets": [],
       "value": ""
     }, {
       "id": "c9d9f56b-e585-4229-8d2b-f91069c06f4c",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/']",
+      "target": "linkText=Home",
       "targets": [],
       "value": ""
     }, {
@@ -580,17 +601,24 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "2cc63e59-8d90-439d-a322-3d333052731e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "c2b0ce1d-32ca-4526-9bc3-0e6b4e3039b9",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": " css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "4658bcd3-4ff5-4d7c-accd-3e692d188654",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": " css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
@@ -629,17 +657,31 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "f257aa14-b6a8-4ea7-b295-b0b27fc7e5a0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0f5c8b5-70ca-4ac5-9a47-ecc982254585",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "707dd5ad-a31e-4178-9b99-8f4aaaa00a69",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": " css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "126215e4-0aa0-4563-af4b-e7704c213a74",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/@testuser_1/']",
+      "target": " css=a[href=\"#/@testuser_1/\"]",
       "targets": [],
       "value": ""
     }, {
@@ -660,14 +702,14 @@
       "id": "3e1e844b-a618-4cfd-839f-90922316530e",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "xpath=//a[@href='#/']",
+      "target": "linkText=Home",
       "targets": [],
       "value": ""
     }, {
       "id": "6ef6efae-9bae-4618-a29b-974da824b2c9",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href='#/']",
+      "target": "linkText=Home",
       "targets": [],
       "value": ""
     }, {
