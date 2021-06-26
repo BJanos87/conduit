@@ -183,7 +183,7 @@
       "id": "a99e36ba-57e4-47c3-9828-7271b5220a60",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:1667/",
+      "target": "http://localhost:1667/#/",
       "targets": [],
       "value": ""
     }, {
@@ -197,14 +197,14 @@
       "id": "f9e1ec04-313e-4c72-93c9-61f60e603a5a",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
       "id": "7511966c-eb0d-43e3-9c25-0ee9314c4a60",
       "comment": "",
       "command": "click",
-      "target": "css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuer_1",
       "targets": [],
       "value": ""
     }, {
@@ -316,14 +316,14 @@
       "id": "3bb9e332-3320-4e3b-96bd-3c1061b6f523",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
       "id": "34c73bb5-4be9-474f-af50-9c89b801865b",
       "comment": "",
       "command": "click",
-      "target": "css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
@@ -390,7 +390,7 @@
       "id": "81b85e5d-ce0f-4b37-a038-3e580e625dc1",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:1667/",
+      "target": "http://localhost:1667/#/",
       "targets": [],
       "value": ""
     }, {
@@ -404,14 +404,14 @@
       "id": "32fd2bc3-55e1-45f2-9f2a-bbb4aa32362e",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
       "id": "362adb7b-9c6e-4e59-8252-446d12aad9ed",
       "comment": "",
       "command": "click",
-      "target": "css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
@@ -523,14 +523,14 @@
       "id": "7c899032-2f2e-44fa-8117-d86fe83ea811",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
       "id": "50b7da13-4fa9-4417-9ed4-751bf754b3d2",
       "comment": "",
       "command": "click",
-      "target": "css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
@@ -597,7 +597,7 @@
       "id": "18fefc0b-5791-4d64-b025-09ac717de9ca",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:1667/",
+      "target": "http://localhost:1667/#/",
       "targets": [],
       "value": ""
     }, {
@@ -611,14 +611,14 @@
       "id": "c2b0ce1d-32ca-4526-9bc3-0e6b4e3039b9",
       "comment": "",
       "command": "assertElementPresent",
-      "target": " css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
       "id": "4658bcd3-4ff5-4d7c-accd-3e692d188654",
       "comment": "",
       "command": "click",
-      "target": " css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
@@ -674,14 +674,14 @@
       "id": "707dd5ad-a31e-4178-9b99-8f4aaaa00a69",
       "comment": "",
       "command": "assertElementPresent",
-      "target": " css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
       "id": "126215e4-0aa0-4563-af4b-e7704c213a74",
       "comment": "",
       "command": "click",
-      "target": " css=a[href=\"#/@testuser_1/\"]",
+      "target": "linkText=testuser_1",
       "targets": [],
       "value": ""
     }, {
