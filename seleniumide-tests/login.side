@@ -10,7 +10,7 @@
       "id": "a66eddbb-47e6-4a0c-8f02-a63ab225c338",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "http://localhost:1667/",
       "targets": [],
       "value": ""
     }, {
@@ -24,7 +24,7 @@
       "id": "22eed395-ef86-42d4-875a-d22742eb3052",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
+      "target": "linkText=Log out",
       "targets": [
         ["linkText=New Article", "linkText"],
         ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
@@ -164,13 +164,10 @@
     }, {
       "id": "45f9e52b-47f4-440e-8f08-3d787b495c2c",
       "comment": "",
-      "command": "assertElementPresent",
+      "command": "waitForElementPresent",
       "target": "css=div[class=\"swal-icon--error__x-mark\"]",
-      "targets": [
-        ["css=.swal-text", "css:finder"],
-        ["xpath=//div/div[3]", "xpath:position"]
-      ],
-      "value": ""
+      "targets": [],
+      "value": "5000"
     }, {
       "id": "2598a3da-7576-44e1-a581-8b7d447e1ab4",
       "comment": "",
@@ -208,7 +205,7 @@
       "id": "14442fa7-0fb9-4a0d-9ae8-b7df68fb8426",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
+      "target": "linkText=Log out",
       "targets": [
         ["linkText=New Article", "linkText"],
         ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
@@ -234,7 +231,7 @@
       "id": "f76f8020-1bb9-4046-9f80-88bc37bd1429",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "http://localhost:1667/",
       "targets": [],
       "value": ""
     }, {
@@ -248,7 +245,7 @@
       "id": "61f91c7a-ecba-4abb-92be-4830ce2ce5e2",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
+      "target": "linkText=Log out",
       "targets": [
         ["linkText=New Article", "linkText"],
         ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
@@ -386,13 +383,6 @@
       ],
       "value": ""
     }, {
-      "id": "0c7817c6-529a-493d-9d26-2095af27af82",
-      "comment": "",
-      "command": "waitForElementPresent",
-      "target": "linkText=New Article",
-      "targets": [],
-      "value": "3000"
-    }, {
       "id": "3491b5db-d08d-4612-9f74-e47f9dc6f019",
       "comment": "",
       "command": "assertElementPresent",
@@ -410,7 +400,7 @@
       "id": "e3feb92d-5820-41e9-98e3-3654b8dc57fc",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
+      "target": "linkText=Log out",
       "targets": [
         ["linkText=New Article", "linkText"],
         ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],

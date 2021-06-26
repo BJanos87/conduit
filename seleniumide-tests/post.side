@@ -10,7 +10,7 @@
       "id": "f76f8020-1bb9-4046-9f80-88bc37bd1429",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "http://localhost:1667/",
       "targets": [],
       "value": ""
     }, {
@@ -24,7 +24,7 @@
       "id": "61f91c7a-ecba-4abb-92be-4830ce2ce5e2",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
+      "target": "linkText=Log out",
       "targets": [
         ["linkText=New Article", "linkText"],
         ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
@@ -162,12 +162,12 @@
       ],
       "value": ""
     }, {
-      "id": "28eca92d-5190-4fdd-8bb7-bfd0305d394c",
+      "id": "d1218d24-2bcd-429b-a0d8-2a75fc23c55a",
       "comment": "",
-      "command": "waitForElementPresent",
-      "target": "linkText=New Article",
+      "command": "assertElementPresent",
+      "target": "linkText=Log out",
       "targets": [],
-      "value": "3000"
+      "value": ""
     }, {
       "id": "4cd06ffc-8388-4e02-afaf-468778300bd8",
       "comment": "",
@@ -183,7 +183,7 @@
       "id": "a99e36ba-57e4-47c3-9828-7271b5220a60",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "http://localhost:1667/",
       "targets": [],
       "value": ""
     }, {
@@ -390,7 +390,7 @@
       "id": "81b85e5d-ce0f-4b37-a038-3e580e625dc1",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "http://localhost:1667/",
       "targets": [],
       "value": ""
     }, {
@@ -576,7 +576,7 @@
       "id": "18fefc0b-5791-4d64-b025-09ac717de9ca",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "http://localhost:1667/",
       "targets": [],
       "value": ""
     }, {
