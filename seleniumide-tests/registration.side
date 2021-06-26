@@ -245,6 +245,21 @@
       ],
       "value": ""
     }, {
+      "id": "9c18e597-182d-412f-99fc-b1a58f4f65d4",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=New Article",
+      "targets": [
+        ["linkText=New Article", "linkText"],
+        ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'New Article')]", "xpath:link"],
+        ["xpath=//div[@id='app']/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/editor')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' New Article')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "a4535922-937e-4959-8fd0-68fdfcc63c22",
       "comment": "",
       "command": "close",
