@@ -41,15 +41,15 @@ jobs:
         run: |
           docker-compose up -d
 
-      - name: Run Integration Tests
-        run: |
-          docker-compose up -d
-          docker exec realworld_drash deno test -A --unstable tests/integration/test.ts
+#      - name: Run Integration Tests
+#        run: |
+#          docker-compose up -d
+#          docker exec realworld_drash deno test -A --unstable tests/integration/test.ts
 
-      - name: Run Unit Tests
-        run: |
-          docker-compose up -d
-          docker exec realworld_drash deno test -A --unstable tests/unit/models/base_model_test.ts
+#      - name: Run Unit Tests
+#        run: |
+#          docker-compose up -d
+#          docker exec realworld_drash deno test -A --unstable tests/unit/models/base_model_test.ts
 
       - name: Run Registration Tests 
         run: |
