@@ -5,7 +5,7 @@
   "url": "http://localhost:1667/",
   "tests": [{
     "id": "a2b6a98d-fee2-4aa4-b491-a23a03d97012",
-    "name": "New User_Valid Data",
+    "name": "01_New User_Valid Data",
     "commands": [{
       "id": "2de7bd18-8c5c-4ea6-bf10-1d64e62eef97",
       "comment": "",
@@ -189,7 +189,7 @@
       "id": "a1a3aaea-0215-4710-91a4-1470d819715b",
       "comment": "",
       "command": "click",
-      "target": "css=.btn",
+      "target": "css=button[class=\"btn btn-lg btn-primary pull-xs-right\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//div[@id='app']/div/div/div/div/form/button", "xpath:idRelative"],
@@ -201,7 +201,7 @@
       "id": "0c1f0096-92eb-4ac2-95fd-1c7158a99944",
       "comment": "",
       "command": "click",
-      "target": "css=.swal-button",
+      "target": "css=button[class=\"swal-button swal-button--confirm\"]",
       "targets": [
         ["css=.swal-button", "css:finder"],
         ["xpath=//div[2]/div/div[4]/div/button", "xpath:position"],
@@ -211,10 +211,10 @@
     }, {
       "id": "b3e05ffb-938d-440b-b753-a4b59d7fff98",
       "comment": "",
-      "command": "assertElementPresent",
+      "command": "waitForElementPresent",
       "target": "linkText=New Article",
       "targets": [],
-      "value": ""
+      "value": "3000"
     }, {
       "id": "d320c11e-1e6f-4d98-bfd4-069437a409ae",
       "comment": "",
@@ -244,10 +244,17 @@
         ["xpath=//a[contains(.,' New Article')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "a4535922-937e-4959-8fd0-68fdfcc63c22",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }, {
     "id": "f5efd782-08a3-47af-8bd5-0dd0fecd9815",
-    "name": "New User_Invalid Data",
+    "name": "02_New User_Invalid Data",
     "commands": [{
       "id": "a66eddbb-47e6-4a0c-8f02-a63ab225c338",
       "comment": "",
@@ -416,10 +423,22 @@
       ],
       "value": "a1"
     }, {
+      "id": "20879027-f146-40dc-816b-1d9ffe575c0d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//input[@type='password']",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "3c41f6f8-7c4d-4972-9001-3317463b68c9",
       "comment": "",
       "command": "click",
-      "target": "css=.btn",
+      "target": "css=button[class=\"btn btn-lg btn-primary pull-xs-right\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//div[@id='app']/div/div/div/div/form/button", "xpath:idRelative"],
@@ -431,7 +450,7 @@
       "id": "45f9e52b-47f4-440e-8f08-3d787b495c2c",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=.swal-text",
+      "target": "css=div[class=\"swal-icon--error__x-mark\"]",
       "targets": [
         ["css=.swal-text", "css:finder"],
         ["xpath=//div/div[3]", "xpath:position"]
@@ -441,7 +460,7 @@
       "id": "2598a3da-7576-44e1-a581-8b7d447e1ab4",
       "comment": "",
       "command": "click",
-      "target": "css=.swal-button",
+      "target": "css=button[class=\"swal-button swal-button--confirm\"]",
       "targets": [
         ["css=.swal-button", "css:finder"],
         ["xpath=//div[4]/div/button", "xpath:position"],
@@ -521,10 +540,22 @@
       ],
       "value": "a1"
     }, {
+      "id": "4a1368b3-6820-437f-a7d7-515c4041a012",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//input[@type='password']",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "89a9db4e-ed3f-4725-b4d2-420a238d5d33",
       "comment": "",
       "command": "click",
-      "target": "css=.btn",
+      "target": "css=button[class=\"btn btn-lg btn-primary pull-xs-right\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//div[@id='app']/div/div/div/div/form/button", "xpath:idRelative"],
@@ -536,7 +567,7 @@
       "id": "72b9b864-0623-4a0b-aded-d39eab8a0181",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=.swal-text",
+      "target": "css=div[class=\"swal-icon--error__x-mark\"]",
       "targets": [
         ["css=.swal-text", "css:finder"],
         ["xpath=//div/div[3]", "xpath:position"]
@@ -546,7 +577,7 @@
       "id": "6dd62d5a-fd7e-4822-85bf-72c9f14a717c",
       "comment": "",
       "command": "click",
-      "target": "css=.swal-button",
+      "target": "css=button[class=\"swal-button swal-button--confirm\"]",
       "targets": [
         ["css=.swal-button", "css:finder"],
         ["xpath=//div[4]/div/button", "xpath:position"],
@@ -626,10 +657,22 @@
       ],
       "value": "Abcd1234"
     }, {
+      "id": "08134072-6268-46d6-b32c-f71f6a93625d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//input[@type='password']",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "5af71d8c-ce73-4f3a-af1f-dd4e6fd04a95",
       "comment": "",
       "command": "click",
-      "target": "css=.btn",
+      "target": "css=button[class=\"btn btn-lg btn-primary pull-xs-right\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//div[@id='app']/div/div/div/div/form/button", "xpath:idRelative"],
@@ -641,7 +684,7 @@
       "id": "1f9f3896-d413-4eef-8380-4bc923b6090d",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=.swal-text",
+      "target": "css=div[class=\"swal-icon--error__x-mark\"]",
       "targets": [
         ["css=.swal-text", "css:finder"],
         ["xpath=//div/div[3]", "xpath:position"]
@@ -651,12 +694,19 @@
       "id": "ff27a126-ebfc-4bbc-8d46-c92fb455a1c8",
       "comment": "",
       "command": "click",
-      "target": "css=.swal-button",
+      "target": "css=button[class=\"swal-button swal-button--confirm\"]",
       "targets": [
         ["css=.swal-button", "css:finder"],
         ["xpath=//div[4]/div/button", "xpath:position"],
         ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "cd7a835d-ffb3-4925-bd6d-423d8c1078e9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Home",
+      "targets": [],
       "value": ""
     }, {
       "id": "0367b9ca-585b-4453-b0d2-98f79a55a2db",
@@ -672,6 +722,28 @@
         ["xpath=//li/a", "xpath:position"],
         ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "bca6b837-686e-4352-af46-d05f799e4f6c",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=New Article",
+      "targets": [
+        ["linkText=New Article", "linkText"],
+        ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'New Article')]", "xpath:link"],
+        ["xpath=//div[@id='app']/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/editor')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' New Article')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f28476b2-d935-407b-a659-761dd5e5872d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],
