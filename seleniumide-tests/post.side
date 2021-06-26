@@ -582,13 +582,6 @@
     "id": "e24a971a-4cc4-4643-8340-bbdb9c30146e",
     "name": "03_Edit_Post",
     "commands": [{
-      "id": "eb76a7b5-1f19-4266-8f6e-9af60cda5690",
-      "comment": "",
-      "command": "pause",
-      "target": "30000",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "81b85e5d-ce0f-4b37-a038-3e580e625dc1",
       "comment": "",
       "command": "open",
@@ -965,13 +958,6 @@
     "id": "7a4595eb-4859-4cc3-81d9-856e280459db",
     "name": "04_Delete_Post",
     "commands": [{
-      "id": "c8d8dc0e-3a52-43ab-8874-71981d2beb16",
-      "comment": "",
-      "command": "pause",
-      "target": "120000",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "18fefc0b-5791-4d64-b025-09ac717de9ca",
       "comment": "",
       "command": "open",
@@ -1270,32 +1256,11 @@
   }],
   "suites": [{
     "id": "00b978c4-261e-4dc5-b839-4d7948f6a8f4",
-    "name": "01_Login",
+    "name": "Post Test Cases",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["d9f982a0-58c1-4347-8c78-95af093f37fa"]
-  }, {
-    "id": "2290b13c-ca12-4d9f-b79a-210e58ed69dc",
-    "name": "02_Create New Post",
-    "persistSession": false,
-    "parallel": false,
-    "timeout": 300,
-    "tests": ["c046394b-d5e1-4d40-965c-43e7cc89f6f5"]
-  }, {
-    "id": "daa27536-b293-49e9-aadf-7b3065c07706",
-    "name": "03_Edit Post",
-    "persistSession": false,
-    "parallel": false,
-    "timeout": 300,
-    "tests": ["e24a971a-4cc4-4643-8340-bbdb9c30146e"]
-  }, {
-    "id": "aa091a44-aaed-4ba2-8e8b-9698f8829786",
-    "name": "04_Delete Post",
-    "persistSession": false,
-    "parallel": false,
-    "timeout": 300,
-    "tests": ["7a4595eb-4859-4cc3-81d9-856e280459db"]
+    "tests": ["d9f982a0-58c1-4347-8c78-95af093f37fa", "c046394b-d5e1-4d40-965c-43e7cc89f6f5", "e24a971a-4cc4-4643-8340-bbdb9c30146e", "7a4595eb-4859-4cc3-81d9-856e280459db"]
   }],
   "urls": ["http://localhost:1667/#/", "http://localhost:1667/"],
   "plugins": []
