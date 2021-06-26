@@ -24,22 +24,14 @@
       "id": "00f58b65-fbb8-4bf2-8e0d-ca454763ec7a",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
-      "targets": [
-        ["linkText=New Article", "linkText"],
-        ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
-        ["xpath=//a[contains(text(),'New Article')]", "xpath:link"],
-        ["xpath=//div[@id='app']/nav/div/ul/li[2]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '#/editor')]", "xpath:href"],
-        ["xpath=//li[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,' New Article')]", "xpath:innerText"]
-      ],
+      "target": "css=a[active-class=\"active\"]",
+      "targets": [],
       "value": ""
     }, {
       "id": "a87b632f-e4fb-41ea-8514-cac721f71f1c",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "linkText=Sign up",
+      "target": "xpath=//a[contains(@href, '#/register')]",
       "targets": [
         ["linkText=Sign up", "linkText"],
         ["css=.router-link-exact-active", "css:finder"],
@@ -54,7 +46,7 @@
       "id": "9c0f1ac3-d4d7-47e4-8a97-71adda01ced5",
       "comment": "",
       "command": "click",
-      "target": "linkText=Sign up",
+      "target": "xpath=//a[contains(@href, '#/register')]",
       "targets": [
         ["linkText=Sign up", "linkText"],
         ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
@@ -124,7 +116,7 @@
         ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "testuser_1"
+      "value": "testuser_8"
     }, {
       "id": "2874a7de-df89-41b0-89d5-7810cf1946eb",
       "comment": "",
@@ -148,7 +140,7 @@
         ["xpath=//div[@id='app']/div/div/div/div/form/fieldset[2]/input", "xpath:idRelative"],
         ["xpath=//fieldset[2]/input", "xpath:position"]
       ],
-      "value": "testuser_1@test.com"
+      "value": "testuser_8@test.com"
     }, {
       "id": "0b95a2ba-8e9e-4f76-8a75-7e098db6e2f6",
       "comment": "",
@@ -219,28 +211,21 @@
       "id": "b3e05ffb-938d-440b-b753-a4b59d7fff98",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "linkText=New Article",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "d320c11e-1e6f-4d98-bfd4-069437a409ae",
-      "comment": "",
-      "command": "assertElementPresent",
-      "target": "linkText=Log out",
+      "target": "css=a[active-class=\"active\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "ad20ac94-9bfb-43a9-af9e-6f70b1cf13d1",
       "comment": "",
       "command": "click",
-      "target": "linkText=Log out",
+      "target": "css=a[active-class=\"active\"]",
       "targets": [],
       "value": ""
     }, {
       "id": "be595f46-16dc-4008-a57f-76e1b25dfebf",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
+      "target": "css=a[active-class=\"active\"]",
       "targets": [
         ["linkText=New Article", "linkText"],
         ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
@@ -280,7 +265,7 @@
       "id": "22eed395-ef86-42d4-875a-d22742eb3052",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
+      "target": "css=a[active-class=\"active\"]",
       "targets": [
         ["linkText=New Article", "linkText"],
         ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
@@ -295,14 +280,14 @@
       "id": "e5f721e5-e913-4674-88e0-24f8a16e524b",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "linkText=Sign up",
+      "target": "xpath=//a[contains(@href, '#/register')]",
       "targets": [],
       "value": ""
     }, {
       "id": "fd757108-9e83-4928-bc6e-e8fbd5bc63ac",
       "comment": "",
       "command": "click",
-      "target": "linkText=Sign up",
+      "target": "xpath=//a[contains(@href, '#/register')]",
       "targets": [
         ["linkText=Sign up", "linkText"],
         ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
@@ -695,7 +680,7 @@
       "id": "0367b9ca-585b-4453-b0d2-98f79a55a2db",
       "comment": "",
       "command": "click",
-      "target": "linkText=Home",
+      "target": "xpath=//a[contains(@href, '#/')]",
       "targets": [
         ["linkText=Home", "linkText"],
         ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
@@ -710,7 +695,7 @@
       "id": "bca6b837-686e-4352-af46-d05f799e4f6c",
       "comment": "",
       "command": "assertElementNotPresent",
-      "target": "linkText=New Article",
+      "target": "css=a[active-class=\"active\"]",
       "targets": [
         ["linkText=New Article", "linkText"],
         ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
