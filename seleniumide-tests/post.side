@@ -373,7 +373,7 @@
       "id": "18ccde0a-ed28-48df-8131-38f03920e8b6",
       "comment": "",
       "command": "pause",
-      "target": "10000",
+      "target": "5000",
       "targets": [],
       "value": ""
     }, {
@@ -499,7 +499,7 @@
       "id": "d0483626-c3b5-46d4-a319-01e17e2f6704",
       "comment": "",
       "command": "pause",
-      "target": "10000",
+      "target": "5000",
       "targets": [],
       "value": ""
     }, {
@@ -582,6 +582,13 @@
     "id": "e24a971a-4cc4-4643-8340-bbdb9c30146e",
     "name": "03_Edit_Post",
     "commands": [{
+      "id": "eb76a7b5-1f19-4266-8f6e-9af60cda5690",
+      "comment": "",
+      "command": "pause",
+      "target": "30000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "81b85e5d-ce0f-4b37-a038-3e580e625dc1",
       "comment": "",
       "command": "open",
@@ -761,13 +768,13 @@
       "id": "1b8a71a6-76f4-4e8a-887f-522464f55beb",
       "comment": "",
       "command": "pause",
-      "target": "10000",
+      "target": "5000",
       "targets": [],
       "value": ""
     }, {
       "id": "89820eaf-c128-44f1-989f-838316230351",
       "comment": "",
-      "command": "//assertText",
+      "command": "assertText",
       "target": "css=h1",
       "targets": [],
       "value": "Teszt Post"
@@ -880,13 +887,13 @@
       "id": "116cb285-88bf-440f-aba3-0aa07790993f",
       "comment": "",
       "command": "pause",
-      "target": "10000",
+      "target": "5000",
       "targets": [],
       "value": ""
     }, {
       "id": "d29d9e69-f94a-465a-80fa-7b6c7a842d71",
       "comment": "",
-      "command": "//assertText",
+      "command": "assertText",
       "target": "css=h1",
       "targets": [],
       "value": "Teszt Post módosítva"
@@ -958,6 +965,13 @@
     "id": "7a4595eb-4859-4cc3-81d9-856e280459db",
     "name": "04_Delete_Post",
     "commands": [{
+      "id": "c8d8dc0e-3a52-43ab-8874-71981d2beb16",
+      "comment": "",
+      "command": "pause",
+      "target": "120000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "18fefc0b-5791-4d64-b025-09ac717de9ca",
       "comment": "",
       "command": "open",
@@ -1137,16 +1151,16 @@
       "id": "218b9788-afcd-49b3-b4a8-6210e108fa64",
       "comment": "",
       "command": "pause",
-      "target": "10000",
+      "target": "5000",
       "targets": [],
       "value": ""
     }, {
       "id": "adeedbac-aa94-49e1-a51d-e0e959132b6b",
       "comment": "",
-      "command": "//assertText",
+      "command": "assertText",
       "target": "css=h1",
       "targets": [],
-      "value": "Teszt Post"
+      "value": "Teszt Post módosítva"
     }, {
       "id": "e2333256-84e3-48b7-b7b4-08f355c74032",
       "comment": "",
@@ -1200,16 +1214,16 @@
       "id": "a6d7aa64-f789-4daf-a97a-99fc1f504c30",
       "comment": "",
       "command": "pause",
-      "target": "10000",
+      "target": "5000",
       "targets": [],
       "value": ""
     }, {
       "id": "d862d9cc-d132-45fb-a5d8-d14660515fb1",
       "comment": "",
-      "command": "//assertNotText",
+      "command": "assertNotText",
       "target": "css=h1",
       "targets": [],
-      "value": "Teszt Post"
+      "value": "Teszt Post módosítva"
     }, {
       "id": "3e1e844b-a618-4cfd-839f-90922316530e",
       "comment": "",
