@@ -363,6 +363,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "18ccde0a-ed28-48df-8131-38f03920e8b6",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "e23ffa29-109c-43d8-9ae8-7fa934ff6cbb",
       "comment": "",
       "command": "assertNotText",
@@ -372,10 +379,10 @@
     }, {
       "id": "4495df0b-d63b-44ad-b5fc-08e8c2a608e8",
       "comment": "",
-      "command": "waitForElementPresent",
+      "command": "assertElementPresent",
       "target": "linkText=New Article",
       "targets": [],
-      "value": "3000"
+      "value": ""
     }, {
       "id": "8b6d98b2-ec48-44df-906d-1576288cf3d9",
       "comment": "",
@@ -479,6 +486,13 @@
       "comment": "",
       "command": "click",
       "target": "linkText=testuser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0483626-c3b5-46d4-a319-01e17e2f6704",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -730,6 +744,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "1b8a71a6-76f4-4e8a-887f-522464f55beb",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "7dd0ee49-a708-45f0-abd8-a87193492bb2",
       "comment": "",
       "command": "assertText",
@@ -839,6 +860,13 @@
       "comment": "",
       "command": "click",
       "target": "linkText=testuser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "116cb285-88bf-440f-aba3-0aa07790993f",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -1085,6 +1113,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "218b9788-afcd-49b3-b4a8-6210e108fa64",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "adeedbac-aa94-49e1-a51d-e0e959132b6b",
       "comment": "",
       "command": "assertText",
@@ -1138,6 +1173,13 @@
       "comment": "",
       "command": "click",
       "target": "linkText=testuser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6d7aa64-f789-4daf-a97a-99fc1f504c30",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
