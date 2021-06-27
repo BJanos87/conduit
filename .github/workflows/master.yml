@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - master
-      -
+      
 jobs:
 
   tests:
@@ -45,15 +45,15 @@ jobs:
         run: sleep 30s
         shell: bash
 
-#      - name: Run Integration Tests
-#        run: |
-#          docker-compose up -d
-#          docker exec realworld_drash deno test -A --unstable tests/integration/test.ts
+#     - name: Run Integration Tests
+#       run: |
+#         docker-compose up -d
+#         docker exec realworld_drash deno test -A --unstable tests/integration/test.ts
 
-#      - name: Run Unit Tests
-#        run: |
-#          docker-compose up -d
-#          docker exec realworld_drash deno test -A --unstable tests/unit/models/base_model_test.ts
+#     - name: Run Unit Tests
+#       run: |
+#         docker-compose up -d
+#         docker exec realworld_drash deno test -A --unstable tests/unit/models/base_model_test.ts
 
       - name: Run Registration Tests 
         run: |
@@ -67,18 +67,18 @@ jobs:
         run: |
           selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, --headless, --nogpu]" seleniumide-tests/post.side
 
-  linter:
-      # Only one OS is required since fmt is cross platform
-    runs-on: ubuntu-latest
+#  linter:
+#      # Only one OS is required since fmt is cross platform
+#   runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
+#    steps:
+#     - uses: actions/checkout@v2
 
-      - name: Install Deno
-        uses: denolib/setup-deno@master
+#     - name: Install Deno
+#       uses: denolib/setup-deno@master
 
-      - name: Formatter
-        run: deno fmt --check --unstable --ignore='src/public,src/vue,src/package.json,src/webpack.config.js'
+#     - name: Formatter
+#       run: deno fmt --check --unstable --ignore='src/public,src/vue,src/package.json,src/webpack.config.js'
 
-      - name: Linter
-        run: deno lint --unstable --ignore='src/public,src/vue,src/package.json,src/webpack.config.js'
+#     - name: Linter
+#       run: deno lint --unstable --ignore='src/public,src/vue,src/package.json,src/webpack.config.js'
