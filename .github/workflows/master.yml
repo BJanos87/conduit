@@ -45,27 +45,27 @@ jobs:
         run: sleep 30s
         shell: bash
 
-      - name: Run Integration Tests
-        run: |
-          docker-compose up -d
-          docker exec realworld_drash deno test -A --unstable tests/integration/test.ts
+#     - name: Run Integration Tests
+#       run: |
+#         docker-compose up -d
+#         docker exec realworld_drash deno test -A --unstable tests/integration/test.ts
   
-      - name: Run Unit Tests
-        run: |
-          docker-compose up -d
-          docker exec realworld_drash deno test -A --unstable tests/unit/models/base_model_test.ts
+#     - name: Run Unit Tests
+#       run: |
+#         docker-compose up -d
+#         docker exec realworld_drash deno test -A --unstable tests/unit/models/base_model_test.ts
 
       - name: Run Registration Tests 
         run: |
-          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, --headless, --nogpu]" seleniumide-tests/registration.side
+          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[--disable-infobars, --headless, --nogpu]" seleniumide-tests/registration.side
 
       - name: Run Login Tests 
         run: |
-          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, --headless, --nogpu]" seleniumide-tests/login.side
+          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[--disable-infobars, --headless, --nogpu]" seleniumide-tests/login.side
 
       - name: Run Post Tests 
         run: |
-          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, --headless, --nogpu]" seleniumide-tests/post.side
+          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[--disable-infobars, --headless, --nogpu]" seleniumide-tests/post.side
 
 #  linter:
 #      # Only one OS is required since fmt is cross platform
