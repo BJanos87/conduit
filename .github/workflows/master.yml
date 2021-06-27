@@ -10,7 +10,7 @@ on:
       
 jobs:
 
-  tests:
+  Conduit Selenium Tests:
 
     runs-on: ubuntu-latest
 
